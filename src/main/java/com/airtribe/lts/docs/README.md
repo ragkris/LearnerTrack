@@ -20,7 +20,7 @@ It simplifies the implementation and removes external dependencies such as datab
 When the application terminates, the data is cleared from memory.
 
 ## Class Diagram
-![class diagram](images\LearnerTrack_ClassDiagram.png)
+![class diagram](images/LearnerTrack_ClassDiagram.png)
 
 
 ---
@@ -41,14 +41,14 @@ When the application terminates, the data is cleared from memory.
 ````
 C:\Users\Kavitha\IdeaProjects\LearnerTrack>dir /s /b src\*.java > sources.txt
 ````
-![Sources Txt file](images\sources_java.jpg)
+![Sources Txt file](images/sources_java.jpg)
 
 2. Compile all Java files using the following command:
 - The command will create ``out`` folder with all the class files.
 ````
 C:\Users\Kavitha\IdeaProjects\LearnerTrack>javac -d out @sources.txt
 ````
-![Class Files](images\class_files.jpg)
+![Class Files](images/class_files.jpg)
 
 
 ### Run the Project
@@ -58,4 +58,4 @@ C:\Users\Kavitha\IdeaProjects\LearnerTrack>javac -d out @sources.txt
 C:\Users\Kavitha\IdeaProjects\LearnerTrack>cd out
 C:\Users\Kavitha\IdeaProjects\LearnerTrack\out>java com.airtribe.lts.Main
 ````
-![Run the Program](images\run_lts.jpg)
+![Run the Program](images/run_lts.jpg)
