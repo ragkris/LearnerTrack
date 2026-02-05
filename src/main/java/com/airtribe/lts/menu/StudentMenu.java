@@ -1,7 +1,6 @@
 package com.airtribe.lts.menu;
 
 import com.airtribe.lts.entity.Student;
-import com.airtribe.lts.exception.InvalidSearchException;
 import com.airtribe.lts.exception.LTSException;
 import com.airtribe.lts.service.StudentService;
 import com.airtribe.lts.utilities.AppMessages;
